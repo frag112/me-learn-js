@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+        <h1>Very Basketball score!</h1>
+        </div>
+
+        <div class="container">
+            <div class="block">
+                <h2>HOME</h2>
+                <h3 id="home">00</h3>
+                <div class="container">
+                    <button onclick="updateScore('home', 1)">+1</button>
+                    <button onclick="updateScore('home', 2)">+2</button>
+                    <button onclick="updateScore('home', 3)">+3</button>
+                </div>
+            </div>
+            <div class="block">
+                <h2>GUEST</h2>
+                <h3 id="guest">00</h3>
+                <div class="container">
+                    <button onclick="updateScore('guest', 1)">+1</button>
+                    <button onclick="updateScore('guest', 2)">+2</button>
+                    <button onclick="updateScore('guest', 3)">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 id="results"></h2>
+            </div>
+        <script src="learn.js"></script>
+    </body>
+</html>
